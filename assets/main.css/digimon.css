@@ -15,9 +15,9 @@
     margin-top: 13px;
 }
 
-.abs-center {
-    display: flex;
-    align-items: 500%;
-    justify-content: 100%;
-   
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
+  

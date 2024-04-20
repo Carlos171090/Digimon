@@ -20,8 +20,7 @@
     />
     <link rel="stylesheet" href="./assets/main.css/digimon.css" />
   </head>
-  <body
-  >
+  <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <img class="ms-5" src="./assets/img/logo.png" style="width: 200px" />
@@ -91,14 +90,12 @@
               placeholder="Ingresa tu Digimon"
               aria-label="Search"
             />
-            
           </form>
         </div>
       </div>
     </nav>
 
-    <main
-    class="container" >
+    <main class="container">
       <header>
         <div class="mt-5">
           <img
@@ -110,53 +107,27 @@
       </header>
 
       <section class="">
-      <h1 id="fuente" class="text-center mt-5">Ve a tu Digimon</h1>
-       <!-- aqui puse un icono y los hice mas pequeño-->
-        <div class=" row d-flex align-items-center justify-content-center ">
-          <img src="./assets/img/pngegg.png" alt=""
-          style="width: 200px; height: auto;">
+        <h1 id="fuente" class="text-center mt-5">Ve a tu Digimon</h1>
+        <!-- aqui puse un icono y los hice mas pequeño-->
+        <div class="row d-flex align-items-center justify-content-center">
+          <img
+            src="./assets/img/pngegg.png"
+            alt=""
+            style="width: 200px; height: auto"
+          />
           <button
-              id="btn-mostrar"
-              class="btn btn-outline-warning col-12 col-md-2 mb-2"
-              type="button"
-            >
-              Mostrar todos los Digimon
-            </button>
-        </div>
-
-
-
-
-
-    </section>
-
-
-
-
-      <section>
-        <div>
-          <div
-            id="contenedor"
-            class="container-fluid row row-cols-12 row-cols-md-6 g-6"
+            id="btn-mostrar"
+            class="btn btn-outline-warning col-12 col-md-2 mb-2 mb-5"
+            type="button"
           >
-            <div class="col-12 col-md-3">
-              <div class="card">
-                <img
-                  src="./assets/img/logo.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Digimon</h5>
-                  <p class="card-text">Sin especificar nivel.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+            Mostrar todos los Digimon
+          </button>
         </div>
-
-      
       </section>
+
+      <div class="container-fluid row row-cols-12 row-cols-md-6 g-6 " id="contenedor" style="display:none;">
+        <!-- Aquí se agregarán las tarjetas de los Digimon -->
+      </div>
 
       <script src="./assets/js/jquery-3.6.4.min.js"></script>
       <script
